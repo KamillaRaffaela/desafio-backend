@@ -19,12 +19,12 @@ nunjucks.configure("views", {
 
 server.get("/about", function(req, res){ 
     const about = {
-        avatar_url:"https://avatars2.githubusercontent.com/u/6643122?s=460&u=1e9e1f04b76fb5374e6a041f5e41dce83f3b5d92&v=4",
-        name:"Myke Brito",
-        role: "Instrutor - Rocketseat",
-        description:'Programador full-stack, focado em trazer o melhor ensino para em programação. Colaborador da <a href="https://Rocketseat.com.br">Rocketseat</a>',
+        avatar_url:"https://avatars3.githubusercontent.com/u/58017246?s=460&u=457ffe96a40b0965d7cafd4fe69c3101b2cdae3a&v=4",
+        name:"Kamilla Raffaela",
+        role: "Programadora Junior",
+        description:'Programadora full-stack, focado em trazer o melhor ensino para em programação. Colaborador da <a href="https://Rocketseat.com.br">Rocketseat</a>',
         links: [
-            {name: "Github", url: "https://github.com/maykbrito/"},
+            {name: "Github", url: "https://github.com/KamillaRaffaela"},
             {name: "Twitter", url: "https://twitter.com/maykbrito/"},
             {name: "Linkedin", url: "https://www.linkedin.com/in/maykbrito/"}
         ]
